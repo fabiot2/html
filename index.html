@@ -83,6 +83,27 @@
             </label>
             <input type="submit">
         </form>
+        <h2>Selectores en formularios</h2>
+        <p>Si bien este selector es válido, lo ideal sería crear un select, con buscador incluido.</p>
+        <select name="cursos" id="cursos">
+            <option value="js">JavaScript</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+        </select>
+        <h2>Mejor formulario</h2>
+        <form>
+            <input list="cursos1">
+                <datalist id="cursos1" name="cursos1" id=""cursos1>
+                    <option value="JavaScript" id="java" name="jaav"></option>
+                    <option value="HTML"></option>
+                    <option value="CSS"></option>
+                </datalist>
+            <input type="submit">
+        </form>
+        <h2>Existe otra forma de hacer un botton por medio de etiqueta Button</h2>
+        <h3>Button</h3>
+        <button type="submit">Que color te gusta?</button>
+
     </div>
 </body>
 </html>
