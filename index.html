@@ -22,5 +22,36 @@
     <div id="listas">
 
     </div>
+    <div id="video">
+        <h3>Etiqueta HTML de Video</h3>
+        <p>Al igual que la etiqueta IMG, la etiqueta HTML de video tiene un atributo que indica el origien de nuestro video.</p>
+        <h4>Atributo controles</h4>
+        <p>Permite generar los controles de reproducción de nuestro video.</p>
+        <h4>Preload</h4>
+        <p>Cargará el origen de video al mismo tiempo que se renderiaza la web.</p>
+        <video src="https://www.youtube.com/watch?v=P22a5lU0mr8&ab_channel=AlphaSniper97#t=30" preload="auto" style="width: 350px;" controls>
+        </video><br>
+        <h3>Etiqueta Html Iframe</h3>
+        <p>No es propia de Video, sin embargo sirve para embeder videos desde Youtube.</p>
+        <iframe width="440" src="https://www.youtube.com/embed/Clm_0sMGOHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen preload></iframe>
+        <h4>Reproducir un video de Youtube en determinado Segundo o minuto</h4>
+        <p>Realmente funciona en cualquier fuente de video, y la forma de hacer que el video se empiece a reproducir en el segundo que queramos, basta con agregar al final del enlace lo siguiente: "#t=30". Esto sólo funciona en etiqueta video.</p>
+        <h4>Dejar de reproducir un video en determinador Segundo</h4>
+        <p>Bastará con agregar una "," y un segundo al atributo anterior para indicar cuando deberá detener la reproducción de nuestro video. Ejemplo: "#t=30,40"</p>
+        <h3>Etiqueta HTML en diferentes formatos</h3>
+        <p>Se cambiará la estructura de la etiqueta html que viene por defecto de VIDEO por:</p><br>
+     <   video controls preload="auto"><br>
+         <   source src="fuentedelvideo.formato1" /><br>
+         <   source src="fuentedelvideo.formato2" /><br>
+         <   source src="fuentedelvideo.formato3" /><br>
+    <  /video><br>
+        <p>Ejemplo</p>
+        <video controls preload="auto" style="max-width: 450px;">
+        <source src="https://www.youtube.com/watch?v=Clm_0sMGOHM&ab_channel=Reviviendolos80%27s">
+        <source src="https://www.youtube.com/watch?v=Clm_0sMGOHM&ab_channel=Reviviendolos80%27s">
+        </video>
+        <p>Nótese que el navegador renderizará el primer formato que pueda reconocer.</p>
+    </div>
+    </div>
 </body>
 </html>
