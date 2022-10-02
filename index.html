@@ -28,12 +28,60 @@
         <p>"El mejor formulario es el que no existe."</p>
         <p>Formulario de ejemplo:</p>
         <form action="formularioejemplo" id="form__contact">
-            <label for="nombres" id="nombres"><span>Nombre:</span></label>
-            <input type="text" id="nombres" autocomplete="name">
+            <label for="nombres" id="nombres" ><span>Nombre:</span></label>
+            <input type="text" id="nombres" autocomplete="name" placeholder="Pon tu nombre">
             <label for="apellidos" id="apellidos" ><span>Apellidos: </span></label>
-            <input type="text" id="apellidos" autocomplete="family-name" >
+            <input type="text" id="apellidos" autocomplete="family-name" placeholder="Pon tu apellido">
             <label for="email"><span>E-mail: </span></label>
             <input type="email" id="email" autocomplete="email">
+        </form>
+        <h2>Formulario de Calendario</h2>
+        <form action="formulario__calendario">
+           <label for="hora">
+            <span>Hora</span>
+            <input type="time" id="hora" name="hora">
+           </label>
+           <label for="dia">
+            <span>Día</span>
+            <input type="date" id="dia" name="dia">
+           </label>
+           <label for="semana">
+            <span>Semana</span>
+            <input type="week" id="semana" name="semana">
+           </label>
+           <label for="mes">
+            <span>Mes</span>
+            <input type="month" id="mes" name="mes">
+           </label>
+           <input type="submit">
+        </form>
+        <h2>Formulario Completo</h2>
+        <form action="formulario__calendario-alt">
+            <label for="formulario__calendario-alt">
+                <span>Calendario Alterno</span>
+                <input type="datetime-local" id="formulario__calendario-alt" name="formulario__calendario-alt">
+                <input type="submit">
+            </label>
+        </form>
+        <p>Si se requiere validaciones para campos requeridos se utiliza el atributo requiered dentro de la etiqueta input.</p>
+        <form action="">
+            <label for="nombre">
+                <span>¿Cúal es tu Nombre?</span>
+                <input type="text" id="nombre" name="nombre">
+            </label>
+            <label for="correo">
+                <span>¿Cúal es tu correo?</span>
+                <input type="email" id="email" name="email" required autocomplete="email">
+            </label> 
+            <label for="pais">
+                <span>¿Cúal es tu País</span>
+                <input type="text" id="pais" name="pais" required autocomplete="country" >
+            </label>
+            <label for="cp">
+                <span>Código postal</span>
+                <input type="" id="cp" name="cp" required autocomplete="postal-code">
+            </label>
+            <input type="submit">
         </form>
     </div>
 </body>
