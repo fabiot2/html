@@ -85,6 +85,7 @@
         <p>Es el contenedor de la etiqueta de imagen si se tiene en cuenta html semántico.</p>
         <p>figcaption: Etiqueta HTML que nos permitirá crear un subtítulo a nuestra imagen.</p>
     </div>
+<<<<<<< HEAD
         <div id="video">
             <h3>Etiqueta HTML de Video</h3>
             <p>Al igual que la etiqueta IMG, la etiqueta HTML de video tiene un atributo que indica el origien de nuestro video.</p>
@@ -115,5 +116,90 @@
             </video>
             <p>Nótese que el navegador renderizará el primer formato que pueda reconocer.</p>
         </div>
+=======
+    <div id="formularios">
+        <h3>Etiquetas form e input</h3>
+        <p>Lo ideal serian formularios cortos, con autocomplete.</p>
+        <p>"El mejor formulario es el que no existe."</p>
+        <p>Formulario de ejemplo:</p>
+        <form action="formularioejemplo" id="form__contact">
+            <label for="nombres" id="nombres" ><span>Nombre:</span></label>
+            <input type="text" id="nombres" autocomplete="name" placeholder="Pon tu nombre">
+            <label for="apellidos" id="apellidos" ><span>Apellidos: </span></label>
+            <input type="text" id="apellidos" autocomplete="family-name" placeholder="Pon tu apellido">
+            <label for="email"><span>E-mail: </span></label>
+            <input type="email" id="email" autocomplete="email">
+        </form>
+        <h2>Formulario de Calendario</h2>
+        <form action="formulario__calendario">
+           <label for="hora">
+            <span>Hora</span>
+            <input type="time" id="hora" name="hora">
+           </label>
+           <label for="dia">
+            <span>Día</span>
+            <input type="date" id="dia" name="dia">
+           </label>
+           <label for="semana">
+            <span>Semana</span>
+            <input type="week" id="semana" name="semana">
+           </label>
+           <label for="mes">
+            <span>Mes</span>
+            <input type="month" id="mes" name="mes">
+           </label>
+           <input type="submit">
+        </form>
+        <h2>Formulario Completo</h2>
+        <form action="formulario__calendario-alt">
+            <label for="formulario__calendario-alt">
+                <span>Calendario Alterno</span>
+                <input type="datetime-local" id="formulario__calendario-alt" name="formulario__calendario-alt">
+                <input type="submit">
+            </label>
+        </form>
+        <p>Si se requiere validaciones para campos requeridos se utiliza el atributo requiered dentro de la etiqueta input.</p>
+        <form action="">
+            <label for="nombre">
+                <span>¿Cúal es tu Nombre?</span>
+                <input type="text" id="nombre" name="nombre">
+            </label>
+            <label for="correo">
+                <span>¿Cúal es tu correo?</span>
+                <input type="email" id="email" name="email" required autocomplete="email">
+            </label> 
+            <label for="pais">
+                <span>¿Cúal es tu País</span>
+                <input type="text" id="pais" name="pais" required autocomplete="country" >
+            </label>
+            <label for="cp">
+                <span>Código postal</span>
+                <input type="" id="cp" name="cp" required autocomplete="postal-code">
+            </label>
+            <input type="submit">
+        </form>
+        <h2>Selectores en formularios</h2>
+        <p>Si bien este selector es válido, lo ideal sería crear un select, con buscador incluido.</p>
+        <select name="cursos" id="cursos">
+            <option value="js">JavaScript</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+        </select>
+        <h2>Mejor formulario</h2>
+        <form>
+            <input list="cursos1">
+                <datalist id="cursos1" name="cursos1" id=""cursos1>
+                    <option value="JavaScript" id="java" name="jaav"></option>
+                    <option value="HTML"></option>
+                    <option value="CSS"></option>
+                </datalist>
+            <input type="submit">
+        </form>
+        <h2>Existe otra forma de hacer un botton por medio de etiqueta Button</h2>
+        <h3>Button</h3>
+        <button type="submit">Que color te gusta?</button>
+
+    </div>
+>>>>>>> formularios
 </body>
 </html>
