@@ -38,3 +38,42 @@ div#css__container .nav li {
     margin: 8px 0px;
     padding: 0 20px;
 }
+
+.flexbox {
+    width: 100%;
+    min-height: auto;
+    background-color: palegreen;
+    border: 2px purple dotted;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.flexbox .box {
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1 {
+    background-color: palegoldenrod;
+}
+
+.box2 {
+    background-color: peachpuff;
+}
+
+.box3 {
+    background-color: pink;
+}
+
+.box4 {
+    background-color: purple;
+}
+
+.box5 {
+    background-color: paleturquoise;
+}
+
+.box6 {
+    background-color: peru;
+}
