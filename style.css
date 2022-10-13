@@ -13,6 +13,26 @@ body {
 }
 
 
-div#css div {
-    color: red;
+div#css__container {
+    margin: 220px;
+}
+
+#css__container .box__container {
+    /* width: 450px;
+    height: 450px; */
+    border: 2px dotted blue;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    background-color: palegoldenrod;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    background-color: palegreen;
+    position: relative;
+    top: 12px;
 }
