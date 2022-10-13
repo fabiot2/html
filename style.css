@@ -41,17 +41,16 @@ div#css__container .nav li {
 
 .flexbox {
     width: 100%;
-    min-height: auto;
     background-color: palegreen;
     border: 2px purple dotted;
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .flexbox .box {
-    width: 10rem;
     height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
 }
 
 .box1 {
