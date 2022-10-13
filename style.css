@@ -1,3 +1,7 @@
+:root {
+    --font-primary-color:#047244;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -74,5 +78,5 @@ div#css__container .nav li {
 }
 
 .box6 {
-    background-color: peru;
+    background-color:var(--font-primary-color);
 }
