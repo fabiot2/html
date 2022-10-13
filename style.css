@@ -14,34 +14,27 @@ body {
 
 
 div#css__container {
-    margin: 220px;
+    width: 70%;
+    min-height: 300px;
+    margin: 200px auto 200px auto;
+    background-color: paleturquoise;
 }
 
-#css__container > span {
-    margin: 100px 0;
-    display: inline-block;
+div#css__container .box__container {
+    margin: 10px;
+    padding: 20px;
+    background-color: palevioletred;
 }
 
-#css__container .box__container {
-    width: 600px;
-    min-height: 700px;
+div#css__container .nav {
+    background-color: plum;
+    padding: 20px;
+    list-style:none;
     text-align: center;
 }
-
-#css__container .box__container {
-    width: 600px;
-    min-height: fit-content;
-    padding: 0px 20px 20px 20px;
-    background-color: palegoldenrod;
-    border-radius: 20px;
-    border: dotted 2px purple;
-}
-
-#css__container .box__container .box-tittle {
-    border: 2px solid plum;
-    background-color: palevioletred;
-    padding: 20px;
-    display: inline-block;
-    position: relative;
-    top: -40px;
+div#css__container .nav li {
+    display:inline-block;
+    font-size: 2rem;
+    margin: 8px 0px;
+    padding: 0 20px;
 }
