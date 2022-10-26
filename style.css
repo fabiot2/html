@@ -198,3 +198,15 @@ div#css__container .nav li {
 .cd5 {
     background-color: powderblue;
 }
+
+
+
+.responsiveimg {
+    max-width: 800px;
+    margin-top: 0 auto;
+}
+
+.responsiveimg img {
+    max-width: 100%;
+    text-align: center;
+}
