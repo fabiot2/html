@@ -143,11 +143,6 @@ div#css__container .nav li {
     flex-wrap: 	wrap;
 }
 
-.box {
-    width: 100%;
-    min-width: 15rem;
-    height: 15rem;
-}
 
 .ls1 {
     background-color: plum;
@@ -168,5 +163,38 @@ div#css__container .nav li {
 }
 
 .ls5 {
+    background-color: powderblue;
+}
+
+.columndrop {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cd {
+    width: 100%;
+    min-width: 15rem;
+    height: 15rem;
+}
+
+
+.cd1 {
+    background-color: plum;
+}
+
+
+.cd2 {
+    background-color: palegreen;
+}
+
+.cd3 {
+    background-color: rgba(175, 238, 238, 0.678);
+}
+
+.cd4 {
+    background-color: peru;
+}
+
+.cd5 {
     background-color: powderblue;
 }
