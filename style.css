@@ -129,3 +129,44 @@ div#css__container .nav li {
 .mf5 {
     background-color: plum;
 }
+
+.flexboxh2 {
+    margin: 20rem auto;
+}
+
+.layoutshifter {
+
+    min-width: 30rem;
+    min-height: 30rem;
+    background-color: #535353;
+    display: flex;
+    flex-wrap: 	wrap;
+}
+
+.box {
+    width: 100%;
+    min-width: 15rem;
+    height: 15rem;
+}
+
+.ls1 {
+    background-color: plum;
+}
+
+
+.ls2 {
+    background-color: palegreen;
+}
+
+.ls3 {
+    background-color: rgba(175, 238, 238, 0.678);
+}
+
+.ls4 {
+    background-color: peru;
+    height: auto;
+}
+
+.ls5 {
+    background-color: powderblue;
+}
