@@ -1,0 +1,73 @@
+.box1 {
+    background-color: red;
+}
+
+.mostlyfluid {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mf1 {
+    width: 60%;
+}
+
+.mf2 {
+    width: 40%;
+}
+
+.mf3, .mf4 {
+    width: 33%;
+}
+
+.mf5 {
+    width: 34%;
+}
+
+.layoutshifter {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ls1 {
+    width: 50%;
+    order: 1;
+}
+
+.ls4 {
+    width: 100%;
+}
+
+.ls5 {
+    width: 50%;
+    order: 2;
+}
+
+.columndrop {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cd1 {
+    width: 25%;
+    order: 1;
+}
+
+.cd2 {
+    width: 35%;
+    order: 2;
+}
+
+.cd3 {
+    width: 40%;
+    order: 3;
+}
+
+.cd4 {
+    width: 40%;
+    order: 4;
+}
+
+.cd5 {
+    width: 60%;
+    order: 5;
+}
