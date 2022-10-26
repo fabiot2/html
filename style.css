@@ -1,5 +1,5 @@
 :root {
-    --font-primary-color:#040f72;
+    --font-primary-color:#8a75ff;
 }
 
 * {
@@ -32,6 +32,12 @@ div#css__container .box__container {
     background-color: palevioletred;
 }
 
+div#css__container .box__container p {
+    display: inline-block ;
+    margin-top: 20px;
+}
+
+
 div#css__container .nav {
     background-color: plum;
     padding: 20px;
@@ -47,24 +53,29 @@ div#css__container .nav li {
 
 .flexbox {
     width: 100%;
+    margin-bottom: 500px;
     background-color: palegreen;
-    border: 2px purple dotted;
+    border: 0.3rem purple dotted;
     display: flex;
     flex-wrap: wrap;
 }
 
 .flexbox .box {
+    width: 10rem;
     height: 10rem;
+    color: rgb(36, 36, 36);
     flex-basis: 10rem;
     flex-grow: 1;
 }
 
 .box1 {
     background-color: palegoldenrod;
+
 }
 
 .box2 {
     background-color: peachpuff;
+
 }
 
 .box3 {
