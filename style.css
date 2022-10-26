@@ -93,3 +93,39 @@ div#css__container .nav li {
 .box6 {
     background-color:var(--font-primary-color);
 }
+
+
+.mostlyfluid {
+    min-width: 30rem;
+    min-height: 30rem;
+    background-color: #535353;
+    display: flex;
+    flex-wrap: 	wrap;
+}
+
+.box {
+    width: 100%;
+    min-width: 15rem;
+    height: 15rem;
+}
+
+.mf1 {
+    background-color: plum;
+}
+
+
+.mf2 {
+    background-color: palegreen;
+}
+
+.mf3 {
+    background-color: paleturquoise;
+}
+
+.mf4 {
+    background-color: peru;
+}
+
+.mf5 {
+    background-color: plum;
+}
